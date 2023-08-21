@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+            <link rel="stylesheet" href="style.css">  
+        </head>
+        <script src="https://facweb.cdm.depaul.edu/sjost/cities.js"></script>
+        <script src="index.js"> </script>
+    <title> CitiesLookup</title>
+</head>
+<body>
+    <h1> Cities Look Up </h1> 
+    <div class="wrapper"> 
+        <main  class="contentbox">
+            <label for="countryinput"> Enter name of Country: </label><br><br>
+ <!--retrieves input of country-->
+            <input type="input" id="countryinput"> <br><br>
+<!--outputs citys of given country-->
+            <textarea id="countryoutput"  style="overflow-y:scroll; resize: none"></textarea> <br><br>
+            <label for="subcountryinput"> Enter name of Subcountry: </label><br><br>
+<!-- retrieves input of subcountry -->
+            <input type="input" id="subcountryinput"> <br><br>
+<!-- outputs citys of given subcountry -->
+            <textarea  id='subcountryoutput' style="overflow-y:scroll; resize: none"></textarea> <br><br>
+<!--allows you to see the values in the textarea after input -->
+            <button id="btn1"> Cities </button><br><br>
+            <label for="cityinput"> Enter name of City: </label><br><br>
+<!--retrieves input of city -->
+            <input type="input" id="cityinput"> <br><br>
+<!-- outputs citys of given subcountry/country -->
+            <p id="cityoutput" >  </p> <br><br>
+<!--allows you to see the values in the textarea after input -->
+            <button id="btn2"> Country/Subcountry</button>
+        </main>
+        <figure class="imgbox"> 
+            <img class="img1" src="images/worldcities.png" alt="world Cities">
+        </figure>
+ </div>
+</body>
+</html>
